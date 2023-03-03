@@ -1,0 +1,134 @@
+.latest-match-container {
+  width: 90%;
+}
+
+.latest-match-heading {
+  font-family: 'Bree Serif';
+  font-size: 20px;
+  color: #ffffff;
+  text-align: left;
+  margin: 0;
+  margin-bottom: 15px;
+}
+
+.latest-match-card {
+  display: flex;
+  flex-direction: column;
+  background-color: #0f172a;
+  border-radius: 10px;
+}
+
+@media screen and (min-width: 578px) {
+  .latest-match-card {
+    justify-content: space-between;
+    flex-direction: row;
+  }
+}
+
+.latest-match-details-container {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+@media screen and (min-width: 578px) {
+  .latest-match-details-container {
+    padding: 30px;
+    width: 70%;
+  }
+}
+
+.opponent-team-name {
+  font-family: 'Bree Serif';
+  font-size: 25px;
+  color: #ffffff;
+}
+
+@media screen and (min-width: 578px) {
+  .opponent-team-name {
+    font-size: 30px;
+  }
+}
+
+.match-date {
+  font-family: 'Bree Serif';
+  font-size: 23px;
+  color: #ffffff;
+}
+
+@media screen and (min-width: 578px) {
+  .match-date {
+    font-size: 28px;
+  }
+}
+
+.venue-and-result {
+  font-family: 'Bree Serif';
+  font-size: 15px;
+  color: #ffffff;
+}
+
+@media screen and (min-width: 578px) {
+  .venue-and-result {
+    font-size: 20px;
+  }
+}
+
+.opposition-team-logo {
+  height: 100px;
+  width: 100px;
+}
+
+@media screen and (min-width: 578px) {
+  .opposition-team-logo {
+    height: 200px;
+    width: 200px;
+  }
+}
+
+.horizontal-line {
+  border: 1px solid #475569;
+  display: block;
+}
+
+@media screen and (min-width: 578px) {
+  .horizontal-line {
+    display: none;
+  }
+}
+
+.match-highlights-container {
+  padding: 20px;
+}
+
+@media screen and (min-width: 578px) {
+  .match-highlights-container {
+    padding: 30px;
+  }
+}
+
+.highlights {
+  font-family: 'Bree Serif';
+  font-size: 15px;
+  color: #ffffff;
+}
+
+@media screen and (min-width: 578px) {
+  .highlights {
+    font-size: 21px;
+  }
+}
+
+.result {
+  font-family: 'Bree Serif';
+  font-size: 14px;
+  color: #ffffff;
+}
+
+@media screen and (min-width: 578px) {
+  .result {
+    font-size: 17px;
+  }
+}
